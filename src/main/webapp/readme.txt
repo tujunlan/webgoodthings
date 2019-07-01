@@ -1,0 +1,1 @@
+http://114.116.100.74/goodthings/swagger-ui.html#
