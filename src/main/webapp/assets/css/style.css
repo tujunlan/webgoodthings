@@ -2243,7 +2243,7 @@ label {
   .cat-list.arrow {
     margin-bottom: 0; }
     .cat-list.arrow li {
-      background: url(../../images/arrow-right.png) no-repeat scroll left center rgba(0, 0, 0, 0);
+      background: url(../../image/arrow-right.png) no-repeat scroll left center rgba(0, 0, 0, 0);
       border-bottom: 1px dotted #ddd;
       padding: 5px 14px; }
       .cat-list.arrow li:last-child {
@@ -4882,7 +4882,7 @@ td.ads-details-td {
     font-weight: 300; }
 
 .about-parallax-bottom {
-  background: url(../../images/bg3.jpg) center center fixed;
+  background: url(../../image/bg3.jpg) center center fixed;
   background-size: cover;
   padding: 80px 0;
   display: block;

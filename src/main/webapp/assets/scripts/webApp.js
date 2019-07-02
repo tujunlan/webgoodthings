@@ -244,7 +244,7 @@ var usrState = null;
 		//	node.style.display="none";
 		var html='<div style="position: fixed; top: 38%; left: 38%; z-index: 20000;">';
 			html+='<div style="text-align:center;">';
-			html+='<img src="assets/images/loading.jpg" style="width:60px;height:60px;">';
+			html+='<img src="assets/image/loading.jpg" style="width:60px;height:60px;">';
 			html+='<div style="padding-left:10px;font-size:14px;color:#FFF;margin-top:10px;">网络请求中...</div>';
 			html+='</div>';
 			html+='</div>';

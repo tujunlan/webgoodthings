@@ -4,7 +4,7 @@
 	
 	<%@ include file="commonviews/page_header.jsp" %>
 
-   <%-- <div class="intro" style="background-image: url(images/bg3.jpg);">
+   <%-- <div class="intro" style="background-image: url(image/bg3.jpg);">
         <div class="dtable hw100">
             <div class="dtable-cell hw100">
                 <div class="container text-center">
@@ -50,32 +50,32 @@
                     </div>
 
                     <div class="col-xl-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="book.jsp"><img src="images/category/car-2.jpg" class="img-responsive" alt="img">
+                        <a href="book.jsp"><img src="image/category/car-2.jpg" class="img-responsive" alt="img">
                             <h6> 书单 </h6></a>
                     </div>
 
                     <div class="col-xl-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="video.jsp"><img src="images/category/laptop-2.jpg" class="img-responsive"
-                                                     alt="img"> <h6> 视频 </h6></a>
+                        <a href="video.jsp"><img src="image/category/laptop-2.jpg" class="img-responsive"
+                                                 alt="img"> <h6> 视频 </h6></a>
                     </div>
 
                     <div class="col-xl-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="category.html"><img src="images/category/mobile.jpg" class="img-responsive" alt="img">
+                        <a href="category.html"><img src="image/category/mobile.jpg" class="img-responsive" alt="img">
                             <h6> 音频 </h6></a>
                     </div>
 
                     <div class="col-xl-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="category.html"><img src="images/category/tv.jpg" class="img-responsive" alt="img"> <h6>
+                        <a href="category.html"><img src="image/category/tv.jpg" class="img-responsive" alt="img"> <h6>
                             学生用品 </h6></a>
                     </div>
 
                     <div class="col-xl-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="category.html"><img src="images/category/hdd.jpg" class="img-responsive" alt="img">
+                        <a href="category.html"><img src="image/category/hdd.jpg" class="img-responsive" alt="img">
                             <h6> 玩具 </h6></a>
                     </div>
 
                     <div class="col-xl-2 col-md-3 col-sm-3 col-xs-4 f-category">
-                        <a href="property-list.html"><img src="images/category/house.jpg" class="img-responsive"
+                        <a href="property-list.html"><img src="image/category/house.jpg" class="img-responsive"
                                                           alt="img">
                             <h6> 周末好去处 </h6></a>
                     </div>

@@ -2,7 +2,7 @@
 <%@ include file="commonviews/header.jsp" %>
 
 	<%@ include file="commonviews/page_header.jsp" %>
-    <div class="search-row-wrapper" style="background-image: url(images/bg.jpg)">
+    <div class="search-row-wrapper" style="background-image: url(image/bg.jpg)">
     	<div class="inner">
     	<div class="container ">
     		<form action="#" method="GET" id="form_search">

@@ -1,6 +1,7 @@
 var _limit  = 10;
 var _pagenum = 3;
 var _pageparam = {};
+var durationOption={0:'10m以下',1:'10~20m',2:'20~30m',3:'30~40m',4:'40~60m',6:'60m以上'}
 $(function () {
 	initPage();
 	getDefaultTags();
@@ -58,10 +59,10 @@ var generateVideoList=function(data,param){
 		sHtml += '                	<h5 class="add-title"><a href="'+n.out_link+'" target="_blank">'+webApp.myhtmlencode(n.video_name)+'</a></h5>';
 		sHtml += '					<span class="info-row">';
 /*		sHtml += '						<span class="add-type business-ads tooltipHere" data-toggle="tooltip" data-placement="right" title="Business Ads">B</span>';*/
-		sHtml += '						<span class="item-location"> '+webApp.myhtmlencode(n.author)+'</span>';
+		sHtml += '						<span class="item-location"> 时长：'+durationOption[webApp.myhtmlencode(n.duration)]+'</span>';
 		sHtml += '                    </span>';
 		sHtml += '					<span class="info-row">';
-		sHtml += '						<span class="category"> '+webApp.myhtmlencode(n.press)+'</span>';
+		sHtml += '						<span class="category"> 语言：'+webApp.myhtmlencode(n.producer)+'</span>';
 		sHtml += '                  </span>';
 		sHtml += '                </div>';
 		sHtml += '            </div>';
